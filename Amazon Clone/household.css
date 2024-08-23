@@ -18,7 +18,8 @@
     width: 100px;
 }
 
-.logo{
+#logo {
+    background-image: url("Photos/amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -33,6 +34,11 @@
 }
 
 /* box 2  */
+
+.nav-address{
+    padding: 10px;
+}
+
 .add-first{
     color: #cccccc;
     font-size: 0.85rem;
@@ -95,6 +101,10 @@
 
 /* box 4 */
 
+.nav-signin{
+    padding: 10px;
+}
+
 span{
     font-size: 0.7rem;
 }
@@ -106,6 +116,10 @@ span{
 
 /* box 5 */
 
+.nav-return{
+    padding: 10px;
+}
+
 .nav-cart i {
     font-size: 30px;
 }
@@ -113,6 +127,7 @@ span{
 .nav-cart{
     font-size: 0.85rem;
     font-weight: 700;
+    padding: 10px;
 }
 
 /* panel */
@@ -130,15 +145,27 @@ span{
     display: inline;
 }
 
+.panel-all{
+    padding: 10px;
+}
+
 .panel-ops{
     width: 70%;
     font-size: 0.85rem;
     padding-left: 15px;
+    padding: 10px;
 }
 
 .options{
     margin-left: 15px;
 }
+
+.panel-deals{
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
 
 .panel-deals{
     font-weight: 700;
