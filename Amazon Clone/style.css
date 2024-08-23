@@ -218,6 +218,10 @@ span{
     transition: transform .3s ease-in-out;
 }
 
+.box-message{
+    color: #0f1111;
+}
+
 .box:hover{
     transform: scale(1.1);
     overflow: -moz-hidden-unscrollable;
