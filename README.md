@@ -23,4 +23,4 @@ This project is a simple front-end clone of the Amazon website, focusing on repl
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/amazon-clone.git
+   git clone https://github.com/chauhan-satvik/amazon-clone.git
