@@ -1,0 +1,494 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+
+#logo {
+    background-image: url("/amazon-clone/Amazon Clone/Photos/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box 2  */
+
+.nav-address{
+    padding: 10px;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: 700
+    ;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box 3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid orangered;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd40;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/* box 4 */
+
+.nav-signin{
+    padding: 10px;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 5 */
+
+.nav-return{
+    padding: 10px;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 10px;
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.panel-ops p {
+    display: inline;
+}
+
+.panel-all{
+    padding: 10px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    padding-left: 15px;
+    padding: 10px;
+}
+
+.options{
+    margin-left: 15px;
+}
+
+.panel-deals{
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+.panel-deals{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+/* panel-2 */
+
+.panel-2{
+    height: 41px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #0f1111;
+    border-bottom: 1px solid black;
+    font-weight: 100;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px  gray;
+    margin-bottom: 20px;
+}
+
+.household-clr{
+    color: #c45500;
+    font-size: 100%;
+}
+
+/* panel-3 */
+
+.panel-3{
+    height: 48px;
+    width: 100%;
+}
+
+.panel-3-title{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.panel-3-subtitle{
+    font-size: 1.1rem;
+    color: #565959;
+    padding-left: 50px;
+}
+
+/* main products */
+
+.product{
+    margin-top: 50px;
+}
+
+/* product-1 */
+
+.p-1-title{
+    font-size: 1.3rem;
+    font-weight: 545;
+}
+
+.product-1{
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+}
+
+.image-1{
+    margin-left: 20px;
+    height: 166px;
+    width: 225px;
+    background-image: url("https://m.media-amazon.com/images/I/71CG-QT92KL._AC_UY218_.jpg");
+    background-size: cover;
+}
+
+.information-1{
+    width: 1081px;
+    margin-left: 20px;
+}
+
+.p-1-sponsored{
+    color: #565959;
+    margin-bottom: 5px;
+}
+
+.star{
+    color: #ffa41c;
+}
+
+.fa-chevron-down , .rating-1{
+    color: #007185;
+}
+
+.rating-1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.p-1-purchase-history{
+    color: #565959;
+    font-size: 14px;
+}
+
+.p-1-sup-1, .p-1-sup-2{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.p-1-price{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.p-1-coupon-offer{
+    height: 20px;
+    width: 136px;
+    background-color: #7fda69;
+    font-size: 14px;
+    padding: 0px 6px;
+}
+
+.p-1-coupon-apply{
+    font-size: 12px;
+}
+
+/* product 2 */
+
+.product-2{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+}
+
+.image-2{
+    margin-left: 20px;
+    height: 265px;
+    width: 225px;
+    background-image: url("https://m.media-amazon.com/images/I/71xMs88FYbL._AC_UY218_.jpg");
+    background-size: cover;
+}
+
+.information-2{
+    height: 265px;
+    width: 1081px;
+    margin-left: 20px;
+}
+
+.p-2-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.p-2-options{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.p-2-options-sizes{
+    font-size: 12px;
+    font-weight: 300;
+    color: #007185;
+    margin-bottom: 5px;
+}
+
+.rating-2{
+    color: #007185;
+    margin-bottom: 5px;
+}
+
+.p-2-purchase-history{
+    font-size: 14px;
+    color: #565959;
+}
+
+.p-2-limited-deal{
+    height: 26px;
+    width: 116px;
+    background-color: #b12704;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.p-2-price{
+    margin-top: 5px;
+    font-size: 28px;
+    font-weight: 500;
+    
+}
+
+.p-2-sup-1,.p-2-sup-2{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.p-2-list-price{
+    font-size: 14px;
+    color: #565959;
+}
+
+.p-2-list-price-linethrough{
+    font-size: 13px;
+    color: #565959;
+    text-decoration: line-through;
+}
+
+.p-2-color-selaction{
+    display: grid;
+    row-gap: 10px   ;
+    grid-template-rows:repeat(2 0fr);
+}
+
+.p-2-color-selaction-color-1{
+    height: 30px;
+    width: 30px;
+}
+
+.p-2-color-selaction-color-2{
+    height: 30px;
+    width: 30px;
+}
+
+.p-2-color-1-outer{
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #222f3d;
+    transform: translateX(-4px);
+    cursor: pointer;
+}
+
+.p-2-color-1-inner{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    background-color: #222f3d;
+    cursor: pointer;
+    transform: translateY(-26px);
+}
+
+.p-2-color-2-outer{
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #0f1111;
+    transform: translateX(-4px);
+    cursor: pointer;
+}
+
+.p-2-color-2-inner{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    background-color: #0f1111;
+    cursor: pointer;
+    transform: translateY(-26px);
+}
+
+/* product-3 */
+
+.product-3{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+}
+
+.image-3{
+    margin-left: 20px;
+    height: 160px;
+    width: 225px;
+    background-image: url("https://m.media-amazon.com/images/I/61d46oYQgdL._AC_UY218_.jpg");
+    background-size: cover;
+}
+
+.information-3{
+    height: 265px;
+    width: 1081px;
+    margin-left: 20px;
+}
+
+.p-3-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.rating-3{
+    color: #007185;
+    margin-top: 5px;
+}
+
+.p-3-purchase-history{
+    font-size: 14px;
+    color: #565959;
+}
+
+.p-3-sup-1,.p-3-sup-2{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.p-3-price{
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 2px;
+}
+
+.p-3-delivery-date{
+    font-size: 14px;
+}
+
+.p-3-delivery-date-bold{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.p-3-shiping{
+    font-size: 12px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
